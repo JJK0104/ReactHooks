@@ -1,13 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import USEREDUCER from "./USEREDUCER";
+import reportWebVitals from "./reportWebVitals";
+import App from "./App";
+import ContextApp from "./ContextApp";
+import USEMEMO from "./USEMEMO";
+import USEMEMO2 from "./USEMEMO2";
+import Market from "./market";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
   </React.StrictMode>
 );
 
